@@ -1,0 +1,60 @@
+.competencies {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 10%;
+    overflow: hidden;
+    background-color: #151140;
+
+    .competencies_gap_line {
+        position: absolute;
+        z-index: 10;
+        top: -35%;
+        left: -3%;
+        width: 100%;
+    }
+
+    .conpetencies_title {
+        h1 {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        span {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #B8044B;
+
+            .string {
+                color: gold;
+            }
+        }
+    }
+
+    ul {
+        padding-top: 10%;
+    }
+
+    ul>li {
+        list-style: none;
+        font-family: 'Fira Mono', Courier, monospace;
+        font-weight: $fw-4;
+        font-size: large;
+        color: #B8044B;
+        z-index: 3;
+    }
+
+    .key_white {
+        color: #fff;
+    }
+
+    .competencies_pic {
+        position: absolute;
+        width: 50%;
+        left: 60%;
+        padding: 0 0;
+        overflow: hidden;
+    }
+}

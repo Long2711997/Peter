@@ -1,0 +1,42 @@
+.carousel {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+
+    .carousel_banner_wrapper {
+        position: absolute;
+        width: 100%;
+
+        .carouselBanner {
+            width: 100%;
+            
+        }
+    }
+
+    .carousel_text {
+        position: absolute;
+        // z-index: 2;
+        top: 40vh;
+        left: 10vh;
+
+        .welcome_to,
+        .my_page {
+            font-size: 6em;
+            color: $white-1;
+            font-weight: $fw-4;
+        }
+
+        .about_me {
+            width: fit-content;
+            padding: 15px 25px;
+            font-size: 2em;
+            color: $white-1;
+            font-weight: $fw-3;
+            border-style: solid;
+            border-width: 1px;
+            border-color: $white-1;
+        }
+    }
+}

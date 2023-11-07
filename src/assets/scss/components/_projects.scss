@@ -1,0 +1,54 @@
+.projects {
+    width: 100%;
+    position: relative;
+    background-color: #0E031E;
+    padding-top: 10%;
+    
+
+    h1 {
+        font-family: 'Fira Mono', Courier, monospace;
+        font-weight: 700;
+        color: #2E93BF;
+        padding-bottom: 10%;
+        padding-left: 10%;
+
+        .sign {
+            color: #B8044B;
+        }
+    }
+
+    .project_var,
+    .sign_gold {
+        color: gold;
+    }
+
+    .sign_bottom {
+        padding-top: 10%;
+        margin: 0 0 0 0;
+    }
+
+    .card{
+        background-color: #292A2D;
+    }
+
+    .card-img-top{
+        background-color: $white-1;
+    }
+
+    .card-title {
+        font-family: 'Fira Mono', Courier, monospace;
+        color: #B8044B;
+    }
+
+    .card-text{
+        font-family: 'Fira Mono', Courier, monospace;
+            color: $white-1;
+    }
+
+    .languages{
+        float: right;
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}

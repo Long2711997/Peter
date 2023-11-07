@@ -1,0 +1,70 @@
+.introduce {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #0E031E;
+    z-index: 1;
+
+    .intro_pic {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        img {
+            position: absolute;
+            top: 15%;
+            left: -75%;
+            margin-top: 35%;
+        }
+
+
+
+    }
+
+    .intro_text {
+        position: absolute;
+        width: 60%;
+        top: 35%;
+        padding-left: 10%;
+
+        .intro_gap_line {
+            position: absolute;
+            top: -35%;
+            left: -3%;
+        }
+
+
+        h1 {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #fff;
+
+            span {
+                font-family: 'Fira Mono', Courier, monospace;
+                font-weight: 700;
+                color: #B8044B;
+            }
+        }
+
+        .intro_name {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #B8044B;
+        }
+
+        .intro_position {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #808080;
+        }
+
+        .intro_main_text {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+
+
+}

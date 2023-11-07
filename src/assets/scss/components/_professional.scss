@@ -1,0 +1,129 @@
+.professional {
+    width: 100%;
+    position: relative;
+    background-color: #0E031E;
+    padding-top: 10%;
+
+    .professional_pic {
+        position: absolute;
+        width: 40%;
+        top: 10%;
+        left: -10%;
+    }
+
+    .professional_title {
+        padding-left: 30%;
+
+        h1 {
+            color: $white-1;
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+        }
+
+        span {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #B8044B;
+        }
+    }
+
+    .professional_brse {
+        padding-left: 30%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        h2 {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: $white-1;
+
+            span {
+                color: gold;
+            }
+        }
+
+        h5 {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: $white-1;
+
+            span {
+                color: gold;
+            }
+        }
+
+        li {
+            list-style: none;
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 500;
+            color: $white-1;
+
+            .fa-code-branch {
+                color: #2E93BF;
+                padding-right: 20px;
+            }
+
+            span {
+                color: #B8044B;
+            }
+
+        }
+    }
+
+    .professional_main {
+        .company_wrapper {
+            .company_position {
+                font-family: 'Fira Mono', Courier, monospace;
+                font-weight: 700;
+                color: $white-1;
+                border-top: 1px solid #fff;
+                padding-top: 30px;
+            }
+
+            .company_name {
+                font-family: 'Fira Mono', Courier, monospace;
+                font-weight: 500;
+                color: #B8044B;
+            }
+
+            .company_time {
+                font-family: 'Fira Mono', Courier, monospace;
+                font-weight: 300;
+                color: #2E93BF;
+                float: right;
+            }
+
+            .project_wrapper {
+                .company_project {
+                    font-family: 'Fira Mono', Courier, monospace;
+                    font-weight: 500;
+                    color: $white-1;
+
+                    span{
+                        color: gold;
+                    }
+                }
+
+                .task {
+                    font-family: 'Fira Mono', Courier, monospace;
+                    font-weight: 500;
+                    color: $white-1;
+
+                    li{
+                        list-style-type: none;
+                        padding-left: 10%;
+
+                        .fa-codepen, .fa-briefcase{
+                            padding-right: 20px;
+                        }
+                    }
+
+                    .point{
+                        color: #B8044B;
+                    }
+                }
+            }
+        }
+    }
+
+}

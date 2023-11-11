@@ -3,12 +3,14 @@
     position: relative;
     background-color: #151140;
     padding-top: 10%;
+    padding-bottom: 10%;
 
     h1 {
         font-family: 'Fira Mono', Courier, monospace;
         font-weight: 700;
         color: chartreuse;
         padding-left: 10%;
+        padding-bottom: 10%;
 
         span {
             color: #B8044B;
@@ -16,16 +18,18 @@
     }
 
     .row {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; // Center the cards horizontally
 
         .card {
             position: relative;
             height: 500px;
-            width: 25%;
-            background-color: rgba(105, 105, 105, 0.404);
+            width: calc(25% - 2%); // Calculate width to include margin
             margin: 1%;
-            
+
+            background-color: rgba(105, 105, 105, 0.404);
+
             .card-img-top {
                 height: 300px;
                 padding-top: 3%;
@@ -36,19 +40,17 @@
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 700;
                 color: #B8044B;
-                
             }
 
             .card-text {
                 position: absolute;
                 top: 78%;
+
                 a {
                     font-family: 'Fira Mono', Courier, monospace;
                     font-weight: 700;
                     color: #808080;
-                    
                 }
-
             }
 
             .btn {
@@ -59,5 +61,4 @@
             }
         }
     }
-
 }

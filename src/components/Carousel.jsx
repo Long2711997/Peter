@@ -8,9 +8,15 @@ export default class Carousel extends Component {
           <img className="carouselBanner" src="./longbanner-01 1.png" alt="" />
         </div>
         <div className="carousel_text">
-            <p className='welcome_to'>WELCOME TO</p>
-            <p className="my_page">MY PAGE</p>
-            <p className='about_me'>ABOUT ME</p>
+          <div class="content">
+            <div class="content__container">
+              <p class="content__container__text">Hello</p>
+              <ul class="content__container__list">
+                <li class="content__container__list__item">World !</li>
+                <li class="content__container__list__item">Everybody !</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     );

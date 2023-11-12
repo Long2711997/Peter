@@ -137,9 +137,11 @@ export default class extends Component {
               <a
                 href="../assets/file/Peter Resume for Coop.pdf"
                 class="btn btn-primary resume"
+                tabIndex="0"
                 download
               >
-                Have a View on my Resume
+                <span>Have a View on my Resume</span>
+                <img className="check" src="./check.png" width={60} height={60}/>
               </a>
             </div>
           </div>

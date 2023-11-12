@@ -16,7 +16,7 @@ export default class Introduce extends Component {
             </div>
             <div className="col-8">
               <div className="intro_text">
-                <img className='intro_gap_line' src="Group 4.png" alt="" />
+                <img className="intro_gap_line" src="Group 4.png" alt="" />
                 <h1>
                   Name<span>.is()</span>
                 </h1>

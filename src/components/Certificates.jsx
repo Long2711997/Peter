@@ -8,7 +8,12 @@ export default class Certificates extends Component {
           <h1>
             Certificates<span>()</span>
           </h1>
-          <div className="row">
+          <div
+            className="row"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div className="card" style={{ width: "18rem" }}>
               <img src="./kiu.jpg" className="card-img-top" alt="..." />
               <div className="card-body">

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "animate.css";
 
 export default class Introduce extends Component {
   render() {
@@ -10,12 +11,12 @@ export default class Introduce extends Component {
         <div className="container">
           <div className="row">
             <div className="col-4">
-              <div className="intro_pic">
+              <div className="intro_pic" data-aos="fade-right">
                 <img className="nameIs" src="./nameIs.png" alt="" />
               </div>
             </div>
             <div className="col-8">
-              <div className="intro_text">
+              <div className="intro_text" data-aos="fade-left">
                 <img className="intro_gap_line" src="Group 4.png" alt="" />
                 <h1>
                   Name<span>.is()</span>

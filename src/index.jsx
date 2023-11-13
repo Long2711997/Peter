@@ -10,6 +10,7 @@ import Professional from './components/Professional';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <Education/>
     <Projects/>
     <Certificates/>
+    <Contact/>
   </React.StrictMode>
 );
 

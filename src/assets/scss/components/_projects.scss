@@ -1,16 +1,18 @@
 .projects {
     width: 100%;
     position: relative;
-    background-color: #0E031E;
-    padding-top: 10%;
-    
+    background: linear-gradient(to right, #0E031E, #1F1C2C);
+    padding-top: 5%;
+    /* Adjusted padding for better spacing */
 
     h1 {
         font-family: 'Fira Mono', Courier, monospace;
         font-weight: 700;
         color: #2E93BF;
-        padding-bottom: 10%;
-        padding-left: 10%;
+        padding-bottom: 5%;
+        /* Adjusted padding for better spacing */
+        padding-left: 5%;
+        /* Adjusted padding for better spacing */
 
         .sign {
             color: #B8044B;
@@ -23,32 +25,99 @@
     }
 
     .sign_bottom {
-        padding-top: 10%;
-        margin: 0 0 0 0;
+        padding-top: 5%;
+        /* Adjusted padding for better spacing */
+        margin: 0;
+        /* Removed unnecessary margin */
     }
 
-    .card{
+    .row {
+        margin-top: 3%;
+        /* Added margin to the row for better spacing */
+    }
+
+    .card {
         background-color: #292A2D;
+        border-radius: 10px;
+        /* Added border-radius for rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Added box shadow for depth */
+        transition: transform 0.3s ease-in-out;
+        /* Added a smooth transition on hover */
     }
 
-    .card-img-top{
-        background-color: $white-1;
+    .card:hover {
+        transform: scale(1.05);
+        /* Scale the card slightly on hover for a visual effect */
+    }
+
+    .card-img-top {
+        background-color: #fff;
+        border-radius: 10px 10px 0 0;
+        /* Rounded top corners for the image */
     }
 
     .card-title {
         font-family: 'Fira Mono', Courier, monospace;
         color: #B8044B;
+        margin-top: 10px;
+        /* Added margin for better spacing */
     }
 
-    .card-text{
+    .card-text {
         font-family: 'Fira Mono', Courier, monospace;
-            color: $white-1;
+        color: #fff;
     }
 
-    .languages{
+    .languages {
         float: right;
-        font-size: 30px;
-        padding-bottom: 0;
-        margin-bottom: 0;
+        font-size: 20px;
+        /* Reduced font size for better proportion */
+        margin-top: 5px;
+        /* Added margin for better spacing */
+    }
+
+    .btn-primary {
+        background-color: #B8044B;
+        border-color: #B8044B;
+        color: #fff;
+        transition: background-color 0.3s ease-in-out;
+        /* Added a smooth transition on hover */
+    }
+
+    .btn-primary:hover {
+        background-color: #8B0338;
+        /* Darker shade on hover */
+        border-color: #8B0338;
+    }
+
+    .project_continue {
+        position: relative;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+        font-size: 60px;
+
+        span {
+            font-family: 'Fira Mono',
+                Courier,
+                monospace;
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            animation: waviy 1s infinite;
+            animation-delay: calc(.1s * var(--i));
+        }
+    }
+}
+
+@keyframes waviy {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-20px)
     }
 }

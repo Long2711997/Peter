@@ -5,7 +5,7 @@ export default class extends Component {
     return (
       <div className="professional">
         <div className="container">
-          <div className="row professional_top">
+          <div className="row professional_top" data-aos="flip-left">
             <div className="col-4">
               {" "}
               <img
@@ -52,7 +52,7 @@ export default class extends Component {
             </div>
           </div>
           <div className="professional_main">
-            <div className="row">
+            <div className="row" data-aos="fade-down-right">
               <div class="card bg-dark">
                 <div class="card-header row">
                   <div className="col-6 company_position">
@@ -79,7 +79,7 @@ export default class extends Component {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-right">
               <div class="card bg-dark">
                 <div class="card-header row">
                   <div className="col-6 company_position">
@@ -107,7 +107,7 @@ export default class extends Component {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-up-right">
               <div class="card bg-dark">
                 <div class="card-header row">
                   <div className="col-6 company_position">
@@ -141,7 +141,12 @@ export default class extends Component {
                 download
               >
                 <span>Have a View on my Resume</span>
-                <img className="check" src="./check.png" width={60} height={60}/>
+                <img
+                  className="check"
+                  src="./check.png"
+                  width={60}
+                  height={60}
+                />
               </a>
             </div>
           </div>

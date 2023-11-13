@@ -36,6 +36,7 @@
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 500;
                 color: #B8044B;
+                z-index: 2;
             }
 
         }
@@ -46,6 +47,7 @@
                 font-weight: 500;
                 color: #2E93BF;
                 float: right;
+                z-index: 2;
             }
         }
 
@@ -54,16 +56,18 @@
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 300;
                 color: #808080;
+                z-index: 2;
             }
         }
     }
 
     .edu_pic_bottom {
         position: absolute;
-        width: 40%;
-        left: 70%;
-        top: 60%;
+        width: 20%;
+        left: 0;
+        bottom: 0;
         overflow: hidden;
+        z-index: 1;
     }
 
     .edu_gap_pic {

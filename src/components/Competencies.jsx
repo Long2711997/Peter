@@ -5,7 +5,7 @@ export default class Competencies extends Component {
     return (
       <div className="competencies">
         <div className="container">
-          <div className="row conpetencies_title">
+          <div className="row conpetencies_title" data-aos="fade-down-right">
             <img className="competencies_gap_line" src="./Group 5.png" alt="" />
             <h1>
               Key_Competencies
@@ -18,34 +18,52 @@ export default class Competencies extends Component {
           <div className="row">
             <div className="col-3">
               <ul>
-                <li>[Business Analysis] </li>
-                <li className="key_white">[Project Management]</li>
-                <li>[Test Case Creation]</li>
-                <li className="key_white">[Test Execution]</li>
-                <li>[Customer Service]</li>
-                <li className="key_white">[Research And Report]</li>
+                <li data-aos="fade-down-right">[Business Analysis] </li>
+                <li className="key_white" data-aos="fade-down-right">
+                  [Project Management]
+                </li>
+                <li data-aos="fade-down-right">[Test Case Creation]</li>
+                <li className="key_white" data-aos="fade-up-right">
+                  [Test Execution]
+                </li>
+                <li data-aos="fade-up-right">[Customer Service]</li>
+                <li className="key_white" data-aos="fade-up-right">
+                  [Research And Report]
+                </li>
               </ul>
             </div>
             <div className="col-4">
               <ul>
-                <li className="key_white">[Response Method Consultation] </li>
-                <li>[Project Coordination]</li>
-                <li className="key_white">[Design Document]</li>
-                <li>[Negotiation]</li>
-                <li className="key_white">[Japanese]</li>
-                <li>[English]</li>
+                <li className="key_white" data-aos="fade-down">
+                  [Response Method Consultation]{" "}
+                </li>
+                <li data-aos="fade-down">[Project Coordination]</li>
+                <li className="key_white" data-aos="fade-down">
+                  [Design Document]
+                </li>
+                <li data-aos="fade-up">[Negotiation]</li>
+                <li className="key_white" data-aos="fade-up">
+                  [Japanese]
+                </li>
+                <li data-aos="fade-up">[English]</li>
               </ul>
             </div>
             <div className="col-4">
               <ul>
-                <li className="key_white">
+                <li className="key_white" data-aos="fade-down-left">
                   [HTML / CSS / JS / SCSS / SASS / ReactJs]{" "}
                 </li>
-                <li>[C# / WPF Application]</li>
-                <li className="key_white">[Java]</li>
-                <li>[SQL (MySQL / MicrosoftSQL Server)]</li>
-                <li className="key_white">[Figma]</li>
-                <li>[Postman]</li>
+                <li data-aos="fade-down-left">[C# / WPF Application]</li>
+                <li className="key_white" data-aos="fade-down-left">
+                  [Java]
+                </li>
+                <li data-aos="fade-down-right">
+                  [SQL (MySQL / MicrosoftSQL Server)]
+                </li>
+                <li className="key_white" data-aos="fade-down-right">
+                  [Figma]
+                </li>
+                <li data-aos="fade-down-right">[Postman]</li>
               </ul>
             </div>
             <img

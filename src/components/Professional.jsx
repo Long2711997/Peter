@@ -135,10 +135,12 @@ export default class extends Component {
             </div>
             <div className="row">
               <a
-                href="../assets/file/Resume_LongLuu(Peter).pdf"
+                // href="../assets/file/Resume_LongLuu(Peter).pdf"
+                href="https://drive.google.com/file/d/14I4QMCWNtmcZHjuJEU3qF4yq0hvIBx_-/view"
+                target="blank"
                 class="btn btn-primary resume"
                 tabIndex="0"
-                download="../assets/file/Resume_LongLuu(Peter).pdf"
+                // download="../assets/file/Resume_LongLuu(Peter).pdf"
               >
                 <span>Have a View on my Resume</span>
                 <img

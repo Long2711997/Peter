@@ -138,7 +138,7 @@ export default class extends Component {
                 href="../assets/file/Resume_LongLuu(Peter).pdf"
                 class="btn btn-primary resume"
                 tabIndex="0"
-                download="Resume_LongLuu(Peter).pdf"
+                download="../assets/file/Resume_LongLuu(Peter).pdf"
               >
                 <span>Have a View on my Resume</span>
                 <img

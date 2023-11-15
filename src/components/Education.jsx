@@ -11,35 +11,35 @@ export default class Education extends Component {
               Education<span>()</span>
             </h1>
             <div class="school_wrapper row" data-aos="fadeRight">
-              <div class="col-6 school_name">
+              <div class="col-md-6 school_name">
                 <h2>Saskatchewan Polytechnic</h2>
               </div>
-              <div class="col-4 school_time">
+              <div class="col-md-4 school_time">
                 <h3>In Progress</h3>
               </div>
-              <div class="row program">
+              <div class="col-md-12 program">
                 <h4>Business Information System</h4>
               </div>
             </div>
             <div class="school_wrapper row" data-aos="fadeLeft">
-              <div class="col-6 school_name">
+              <div class="col-md-6 school_name">
                 <h2>Kobe International University (St. Michael University)</h2>
               </div>
-              <div class="col-4 school_time">
+              <div class="col-md-4 school_time">
                 <h3>Mar 2020</h3>
               </div>
-              <div class="row program">
+              <div class="col-md-12 program">
                 <h4>Economics</h4>
               </div>
             </div>
             <div class="school_wrapper row" data-aos="fadeRight">
-              <div class="col-6 school_name">
+              <div class="col-md-6 school_name">
                 <h2>Ho Chi Minh University of Foreign Language and IT</h2>
               </div>
-              <div class="col-4 school_time">
+              <div class="col-md-4 school_time">
                 <h3>May 2017</h3>
               </div>
-              <div class="row program">
+              <div class="col-md-12 program">
                 <h4>Oriental Languages and Cultures - Japanese Studies</h4>
               </div>
             </div>

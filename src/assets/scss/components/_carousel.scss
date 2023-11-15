@@ -311,7 +311,7 @@
                 &__container {
                     font-weight: 600;
                     overflow: hidden;
-                    height: 20px;
+                    height: 15px;
                     padding: 0 4vw;
                     /* Responsive padding based on viewport width */
 
@@ -384,7 +384,7 @@
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 767px) {
+@media only screen and (min-width: 450px) and (max-width: 767px) {
     .carousel {
         position: relative;
         display: block;
@@ -518,7 +518,7 @@
                 &__container {
                     font-weight: 600;
                     overflow: hidden;
-                    height: 70px;
+                    height: 40px;
                     padding: 0 4vw;
                     /* Responsive padding based on viewport width */
 

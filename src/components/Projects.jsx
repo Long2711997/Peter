@@ -10,7 +10,7 @@ export default class Projects extends Component {
             <span className="sign">&#10100;</span>
           </h1>
           <div className="row">
-            <div className="col-6" data-aos="zoom-in">
+            <div className="col-md-6" data-aos="zoom-in">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="./adidas-prophere.png"
@@ -37,10 +37,9 @@ export default class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-6" data-aos="zoom-in">
+            <div className="col-md-6" data-aos="zoom-in">
               <h1 className="project_continue">
-                <span className="sign_gold">[</span>To Be Updated...{" "}
-                <span className="sign_gold">]</span>
+                <span className="sign_gold">[</span>To Be Updated...<span className="sign_gold">]</span>
               </h1>
             </div>
           </div>

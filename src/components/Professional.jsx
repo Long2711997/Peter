@@ -6,7 +6,7 @@ export default class extends Component {
       <div className="professional">
         <div className="container">
           <div className="row professional_top" data-aos="flip-left">
-            <div className="col-4">
+            <div className="col-md-4">
               {" "}
               <img
                 className="professional_pic"
@@ -14,7 +14,7 @@ export default class extends Component {
                 alt=""
               />
             </div>
-            <div className="col-8">
+            <div className="col-md-8">
               <div className="professional_title">
                 <h1>
                   Professional_Experience<span>()</span>

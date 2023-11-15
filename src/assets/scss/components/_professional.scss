@@ -198,6 +198,28 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 450px){
+    .professional_pic {
+            position: absolute;
+            width: 40%;
+            top: 5%;
+            left: -10%;
+            opacity: 0;
+            overflow: hidden;
+        }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 767px){
+    .professional_pic {
+            position: absolute;
+            width: 40%;
+            top: 5%;
+            left: -10%;
+            opacity: 0;
+            overflow: hidden;
+        }
+}
+
 @-webkit-keyframes extend {
     0% {
         width: 300px;

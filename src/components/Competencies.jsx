@@ -6,7 +6,7 @@ export default class Competencies extends Component {
       <div className="competencies">
         <div className="container">
           <div className="row conpetencies_title" data-aos="fade-down-right">
-            <img className="competencies_gap_line" src="./Group 5.png" alt="" />
+            {/* <img className="competencies_gap_line" src="./Group 5.png" alt="" /> */}
             <h1>
               Key_Competencies
               <span>
@@ -16,7 +16,7 @@ export default class Competencies extends Component {
             </h1>
           </div>
           <div className="row">
-            <div className="col-3">
+            <div className="col-lg-4 col-md-6">
               <ul>
                 <li data-aos="fade-down-right">[Business Analysis] </li>
                 <li className="key_white" data-aos="fade-down-right">
@@ -32,7 +32,7 @@ export default class Competencies extends Component {
                 </li>
               </ul>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6">
               <ul>
                 <li className="key_white" data-aos="fade-down">
                   [Response Method Consultation]{" "}
@@ -48,7 +48,7 @@ export default class Competencies extends Component {
                 <li data-aos="fade-up">[English]</li>
               </ul>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6">
               <ul>
                 <li className="key_white" data-aos="fade-down-left">
                   [HTML / CSS / JS / SCSS / SASS / ReactJs]{" "}

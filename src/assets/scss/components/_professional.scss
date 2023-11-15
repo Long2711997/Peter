@@ -198,26 +198,60 @@
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 450px){
+@media only screen and (min-width: 300px) and (max-width: 450px) {
     .professional_pic {
-            position: absolute;
-            width: 40%;
-            top: 5%;
-            left: -10%;
-            opacity: 0;
-            overflow: hidden;
+        position: absolute;
+        width: 40%;
+        top: 5%;
+        left: -10%;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .professional_title {
+        // padding-left: 30%;
+
+        h1 {
+            color: $white-1;
+            font-family: 'Fira Mono', Courier, monospace;
+            font-size: 170%;
+            font-weight: 700;
         }
+
+        span {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #B8044B;
+        }
+    }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 767px){
+@media only screen and (min-width: 451px) and (max-width: 767px) {
     .professional_pic {
-            position: absolute;
-            width: 40%;
-            top: 5%;
-            left: -10%;
-            opacity: 0;
-            overflow: hidden;
+        position: absolute;
+        width: 40%;
+        top: 5%;
+        left: -10%;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .professional_title {
+        // padding-left: 30%;
+
+        h1 {
+            color: $white-1;
+            font-family: 'Fira Mono', Courier, monospace;
+            font-size: 170%;
+            font-weight: 700;
         }
+
+        span {
+            font-family: 'Fira Mono', Courier, monospace;
+            font-weight: 700;
+            color: #B8044B;
+        }
+    }
 }
 
 @-webkit-keyframes extend {

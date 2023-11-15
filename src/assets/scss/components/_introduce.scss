@@ -103,18 +103,20 @@
         .intro_text {
             position: absolute;
             width: 50%;
-            top: 35%;
+            top: 5%;
             padding-left: 10%;
 
             .intro_gap_line {
                 position: absolute;
-                top: -35%;
+                height: 50%;
+                top: 15%;
                 left: -3%;
             }
 
             h1 {
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 700;
+                font-size: 90%;
                 color: #fff;
 
                 span {
@@ -135,14 +137,14 @@
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 700;
                 color: #808080;
-                font-size: 1.5em; // Adjust font size as needed
+                font-size: 1em; // Adjust font size as needed
             }
 
             .intro_main_text {
                 font-family: 'Fira Mono', Courier, monospace;
                 font-weight: 500;
                 color: #fff;
-                font-size: 1em; // Adjust font size as needed
+                font-size: 0.5em; // Adjust font size as needed
             }
         }
     }

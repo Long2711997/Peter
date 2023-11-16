@@ -43,7 +43,7 @@ export default class Contact extends Component {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/in/your-linkedin-profile"
+                href="https://www.linkedin.com/in/long-luu-501b891a3/"
                 target="_blank"
                 class="contact-link"
               >

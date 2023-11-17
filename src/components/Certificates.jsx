@@ -24,7 +24,7 @@ export default class Certificates extends Component {
                   </a>
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1AAnjN4JAjVxjUkIDO805Ta1MmCpXCkDN/view"
+                  href="https://drive.google.com/file/d/1z34e_rWWvrjZqTw2JTjdgYpLZiMulBH-/view"
                   target="_blank"
                   className="btn btn-primary"
                 >
@@ -82,7 +82,7 @@ export default class Certificates extends Component {
                   </a>
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1AAnjN4JAjVxjUkIDO805Ta1MmCpXCkDN/view"
+                  href="https://drive.google.com/file/d/1hsZu1o1p7Cd5T8mKA5dIuytAYMSr0GqH/view"
                   target="_blank"
                   className="btn btn-primary"
                 >

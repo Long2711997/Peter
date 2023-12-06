@@ -136,7 +136,7 @@ export default class extends Component {
             <div className="row">
               <a
                 // href="../assets/file/Resume_LongLuu(Peter).pdf"
-                href="https://drive.google.com/file/d/14I4QMCWNtmcZHjuJEU3qF4yq0hvIBx_-/view"
+                href="https://drive.google.com/file/d/1nsafg3mGHDx7DVTc7jdVtF8s2PeK5uIo/view"
                 target="blank"
                 class="btn btn-primary resume"
                 tabIndex="0"

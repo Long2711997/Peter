@@ -29,7 +29,7 @@ export default class Projects extends Component {
                     <i class="devicon-bootstrap-plain colored"></i>
                   </p>
                   <a
-                    href="https://bc35e-shoes-shop-khang-long.netlify.app/?fbclid=IwAR0x_ilYfJb0G9Qh-nzgpCb9HQwJo-UXv98w5U7fOq_o0OJl1Jh-DgqsMi0"
+                    href="https://shoes-shop-react-three.vercel.app/"
                     className="btn btn-primary"
                   >
                     Go To Project

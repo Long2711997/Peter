@@ -37,6 +37,7 @@
     }
 
     .card {
+        height: 500px;
         background-color: #292A2D;
         border-radius: 10px;
         /* Added border-radius for rounded corners */
@@ -54,6 +55,7 @@
     .card-img-top {
         background-color: #fff;
         border-radius: 10px 10px 0 0;
+        height: 300px;
         /* Rounded top corners for the image */
     }
 

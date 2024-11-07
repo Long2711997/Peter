@@ -1,0 +1,17 @@
+// HELPERS
+@import './helpers/variables';
+@import './helpers/mixins';
+@import '~bootstrap/scss/bootstrap';
+
+// BASE
+@import './base/reset';
+
+// COMPONENTS
+@import './components/carousel';
+@import './components/introduce';
+@import './components/competencies';
+@import './components/professional';
+@import './components/education';
+@import './components/projects';
+@import './components/certificates';
+@import './components/contact';
